@@ -66,14 +66,17 @@ We can specify HOST and PORT as regular environment variables:
 
 # Screenshots
 
-Server:
-
-![](https://i.imgur.com/rXRgkVA.png)
-
-
 Client:
 
-![](https://i.imgur.com/ZcIkbZs.png)
+![](https://i.imgur.com/FeqFBat.png)
+
+
+
+Server:
+
+![](https://i.imgur.com/6lFoNGY.png)
+
+
 
 
 # License
