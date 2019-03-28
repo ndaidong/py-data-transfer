@@ -29,9 +29,9 @@ There are sub folders in this repo:
 
 In each of folder, we have 2 files `server.py` and `client.py`.
 `server.py` and `client.py` should be ran at the different machines.
-However, running them on the same machine is also good to start.
+However, running them on the same machine is good to start too.
 
-With each of method, we please run `server.py` first, for example in a terminal tab:
+With each of method, please run `server.py` first, for example in a terminal tab:
 
 ```bash
 cd /path/to/py-data-transfer
@@ -39,7 +39,7 @@ source venv/bin/activate
 (venv) python python-socketio/server.py
 ```
 
-Then, we start `client.py` at another tab:
+Then, start `client.py` at another tab:
 
 ```bash
 cd /path/to/py-data-transfer
