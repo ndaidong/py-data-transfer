@@ -1,0 +1,5 @@
+autobahn>=19.1
+eventlet>=0.2
+psutil>=5.4
+python-socketio>=4.0
+requests>=2.1
