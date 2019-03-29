@@ -12,7 +12,7 @@ def generate_bytes_data(size):
 
 
 def ms_to_text(t):
-    s = str(round(t / 1000, 2))
+    s = round(t, 2)
     return '{} ({} s)'.format(t, s)
 
 
@@ -55,7 +55,7 @@ def timing(f):
         start = time.time()
         ret = f(*args)
         end = time.time()
-        ms = (end - start) * 1000.0
+        ms = end - start
         print('Time to finish sending:', ms_to_text(ms))
         return ret
     return wrap
