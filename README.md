@@ -26,6 +26,7 @@ There are sub folders in this repo:
 - pure-python-udp
 - pure-python-tcp
 - python-socketio
+- redis
 
 In each of folder, we have 2 files `server.py` and `client.py`.
 `server.py` and `client.py` should be ran at the different machines.
@@ -63,6 +64,25 @@ We can specify HOST and PORT as regular environment variables:
 (venv) HOST=192.168.1.170 PORT=8182 python python-socketio/client.py
 ```
 
+With `redis` test, we need Redis server is running at specific port.
+
+We recommend to build Redis from source as below:
+
+```
+export VERSION=5.0.4
+
+wget http://download.redis.io/releases/redis-$VERSION.tar.gz
+tar xzf redis-$VERSION.tar.gz
+cd redis-$VERSION
+make
+```
+
+Then start `redis-server`:
+
+```
+cd /path/to/redis-$VERSION
+src/redis-server --port=7642 --protected-mode no
+```
 
 # Screenshots
 
@@ -77,6 +97,9 @@ Server:
 ![](https://i.imgur.com/6lFoNGY.png)
 
 
+Redis:
+
+![](https://i.imgur.com/yyFB9pn.png)
 
 
 # License
