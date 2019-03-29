@@ -20,7 +20,7 @@ source venv/bin/activate
 
 # Usage
 
-There are sub folders in this repo:
+There are 5 different methods in 5 sub folders:
 
 - autobahn
 - pure-python-udp
@@ -64,7 +64,7 @@ We can specify HOST and PORT as regular environment variables:
 (venv) HOST=192.168.1.170 PORT=8182 python python-socketio/client.py
 ```
 
-With `redis` test, we need Redis server is running at specific port.
+With `redis` part, we need Redis server runs at specific port.
 
 We recommend to build Redis from source as below:
 
