@@ -88,18 +88,18 @@ src/redis-server --port=7642 --protected-mode no
 
 Client:
 
-![](https://i.imgur.com/FeqFBat.png)
+![](https://i.imgur.com/FXspuhq.png)
 
 
 
 Server:
 
-![](https://i.imgur.com/6lFoNGY.png)
+![](https://i.imgur.com/e8dN2eG.png)
 
 
 Redis:
 
-![](https://i.imgur.com/yyFB9pn.png)
+![](https://i.imgur.com/2ncT0lb.png)
 
 
 # License
